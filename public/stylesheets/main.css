@@ -1,0 +1,253 @@
+.nav-tabs li a {
+      color: #777;
+  }  
+.navbar-default {
+      
+      margin-bottom: 0;
+      background-color: #2d2d30 !important;
+      border: 0;
+      font-size: 15px;
+      font-family: 'Merriweather+Sans';
+      letter-spacing: 4px;
+      opacity: 0.9; 
+  }
+
+  .navbar li a, .navbar .navbar-brand {
+      color: #b5aeae !important;
+  }
+
+  .navbar-nav li.active a {
+      color: #2d2d30 !important;
+  }
+
+  .navbar-nav li a:hover{
+      color: #fff !important;
+  }
+ 
+.nav img{
+      display: inline-block;
+      height: 50%;
+      width: 50%;
+}
+
+.social .fa-facebook:hover{
+    color: #4060A5;
+}
+
+.social .fa-twitter:hover{
+    color: #00ABE3;
+}
+
+.social .fa-instagram:hover{
+    color: #c13584;
+}
+
+.social .fa-youtube-play:hover{
+    color: #cd201f;
+}
+
+.carousel-inner img {
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%); /* make all photos black and white */ 
+    width: 100%; /* Set width to 100% */
+    height: 100%;
+    position: relative;
+    margin-top: 0;
+}
+
+
+body img{
+    -webkit-filter: grayscale(90%);
+    filter: grayscale(90%);
+    width: 100%;
+    height: 130%;
+    position: fixed;
+    z-index: -1;
+}
+
+.About-Content{
+    opacity: 0.9;
+    margin-top: 6em;
+    padding-top: 2.5em;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 9em;
+    padding-bottom: 4em;
+    
+}
+
+.About-Content p{
+    letter-spacing: 1.4px;
+    font-size: 17px;
+    padding-left: 2em;
+    font-family: 'Domine', serif;
+    padding-right: 2em;
+    padding-bottom: 0.2em;
+    color: #a6a6a6;
+    opacity: 1;
+}
+
+.About-Content h1{
+    opacity: 1;
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 0.5em;
+    padding-top: 0.4em;
+    color: #a6a6a6;
+    font-family: 'Arvo', serif;
+}
+
+.AboutContent img{
+	width: 100%;
+}
+
+.Videos-Content h1{
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 0.5em;
+    padding-top: 0.4em;
+    color: #a6a6a6;
+    font-family: 'Lato', sans-serif;
+}
+
+.Videos-Content{
+    
+    margin-top: 7em;
+    
+    position: absolute;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 100%;
+    margin-bottom: 4em;
+    padding-bottom: 0.5em;
+    
+}
+
+.Videos-Content iframe{
+    padding-bottom: 4em;
+    padding-right: 1.8em;
+    padding-left: 1.8em;
+    opacity: none;
+}
+.Gallery-Content{
+    padding-top: 7em;
+    padding-bottom: 4em;
+}
+
+.Gallery-Content img{
+    min-width: 22%;
+    min-height: 35%;
+    filter: none;
+    margin-bottom: 2em;
+    clear: both;
+    position: relative;
+    border-radius: 8px;
+}
+
+.Gallery-Content h1{
+    text-align: center;
+    letter-spacing: 2px;
+    padding-bottom: 0.5em;
+    padding-top: 0.4em;
+    color: #a6a6a6;
+    font-family: 'Lato', sans-serif;
+}
+
+.TourContent{
+	opacity: 1.1;	
+	margin-top: 9em;	
+	width: 100%;
+	position: absolute;
+    padding-bottom: 6em;
+}
+	
+.TourContent p{
+	text-align: center;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 30px;
+	padding-top: 0px;
+}	
+.TourContent h1{
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+	margin-right: 0;
+	background-color:;
+	font-size: 50px;
+	text-align: center;
+	
+}
+
+
+h1{
+  
+  font-size: 30px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 15px;
+}
+table{
+	margin-top: 2%;
+	margin-left: 18%;
+  width:80%;  
+  float: middle;
+  table-layout: fixed;
+  
+}
+
+th{
+  font-family: 'Arvo' , serif;
+  padding: 20px 15px;
+  text-align: left;
+  font-weight: 500;
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  margin-right:50%;
+}
+td{
+  font-family: 'Bitter' , serif;
+  padding: 15px;
+  text-align: left;
+  vertical-align:middle;
+  font-weight: 300;
+  font-size: 18px;
+  color: #fff;
+  border-bottom: none;
+  text-transform: uppercase;
+}
+
+.btn {
+    padding: 14px 24px;    
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+	background: #0f0f0f !important;
+}
+ 
+ .btn:hover {
+	background: #18bff2 !important;
+	border: none !important;
+} 
+ .btn:hover a {
+	 color: black !important;
+	 border: none !important;
+ }
+.tbl-content a {
+	color: #18bff2;
+	text-decoration: none;
+	border: none !important;
+}
+.tbl-content a:hover {
+	 color: black;
+	 text-decoration: none;
+	 border: none !important;
+}
+.tbl-content btn:hover{
+	color:#18bff2 !important;
+	text-decoration: black !important; 
+	border: none !important;
+}
+
